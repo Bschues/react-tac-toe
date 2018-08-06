@@ -2,13 +2,16 @@
   "name": "react-tac-toe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Bschues.github.io/react-tac-toere",
+  "homepage": "https://bschues.github.io/react-tac-toe",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

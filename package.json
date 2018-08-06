@@ -2,7 +2,7 @@
   "name": "react-tac-toe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bschues.github.io/react-tac-toe",
+  "homepage": "https://Bschues.github.io/react-tac-toe",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.2",
